@@ -3,7 +3,7 @@ import { db } from "@/lib/db";
 import { NextResponse } from "next/server";
 
 export async function PATCH(
-  req:Request,
+  req: Request,
   { params }: { params: { serverId: string } }
 ) {
   try {
@@ -33,7 +33,7 @@ export async function PATCH(
 }
 
 export async function DELETE(
-  req:Request,
+  req: Request,
   { params }: { params: { serverId: string } }
 ) {
   try {
